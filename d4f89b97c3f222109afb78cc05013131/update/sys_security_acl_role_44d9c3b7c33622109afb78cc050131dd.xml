@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 20:02:26</sys_created_on>
+        <sys_id>44d9c3b7c33622109afb78cc050131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.pa_admin</sys_name>
+        <sys_package display_value="Student Placement Management" source="x_1798186_student">d4f89b97c3f222109afb78cc05013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</sys_scope>
+        <sys_security_acl display_value="x_1798186_student_interview_schedule">93b90bb7c33622109afb78cc050131d0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_44d9c3b7c33622109afb78cc050131dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 20:02:26</sys_updated_on>
+        <sys_user_role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

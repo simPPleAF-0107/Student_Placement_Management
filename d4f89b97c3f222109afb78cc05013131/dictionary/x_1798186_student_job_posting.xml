@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ed026f3c37222109afb78cc0501311b" label="Job Posting" max_length="40" name="x_1798186_student_job_posting" type="collection">
+        <element label="Min CGPA" max_length="20" name="min_cgpa" type="decimal"/>
+        <element label="Deadline" max_length="40" name="deadline" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Company" max_length="32" name="company" reference="x_1798186_student_company_profile" type="reference"/>
+        <element label="Department Eligible" max_length="40" name="department_eligible" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+    </element>
+</database>

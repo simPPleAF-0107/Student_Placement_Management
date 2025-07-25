@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d5d52a7bc37222109afb78cc05013121" label="Interview Schedule" max_length="40" name="x_1798186_student_interview_schedule" type="collection">
+        <element label="Location / Link" max_length="40" name="location_link" type="string"/>
+        <element label="Feedback" max_length="40" name="feedback" type="string"/>
+        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>
+            </choice>
+        </element>
+        <element label="Application" max_length="32" name="application" reference="x_1798186_student_applications" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+    </element>
+</database>

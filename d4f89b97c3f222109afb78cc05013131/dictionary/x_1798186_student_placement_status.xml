@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f76e6bbc37222109afb78cc050131c3" label="Placement Status" max_length="40" name="x_1798186_student_placement_status" type="collection">
+        <element label="Company" max_length="32" name="company" reference="x_1798186_student_company_profile" type="reference"/>
+        <element label="Student" max_length="32" name="student" reference="x_1798186_student_student_profile" type="reference"/>
+        <element label="Package Offered" max_length="20" name="package_offered" type="currency"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Selected" sequence="0" value="selected"/>
+                <element inactive_on_update="false" label="Not Selected" sequence="1" value="not_selected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

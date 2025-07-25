@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_1798186_student_applications" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Applications - Default view" name="x_1798186_student_applications" related_list="NULL" sys_domain="global" view="Default view">74bda6f3c3b222109afb78cc050131de</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-24 17:58:46</sys_created_on>
+            <sys_id>f0bda6f3c3b222109afb78cc050131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-24 17:58:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Applications - Default view</calculated_name>
+            <filter/>
+            <name>x_1798186_student_applications</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-24 17:58:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74bda6f3c3b222109afb78cc050131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Applications - Default view</sys_name>
+            <sys_package display_value="Student Placement Management" source="x_1798186_student">d4f89b97c3f222109afb78cc05013131</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</sys_scope>
+            <sys_update_name>sys_ui_related_x_1798186_student_applications_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-24 17:58:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</application>
+        <file_path/>
+        <instance_id>7a20ba6f1b8a4214e84d2f8dee4bcb67</instance_id>
+        <instance_name>dev270111</instance_name>
+        <name>sys_ui_related_x_1798186_student_applications_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_1798186_student_applications" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Applications - Default view" name="x_1798186_student_applications" related_list="NULL" sys_domain="global" view="Default view">74bda6f3c3b222109afb78cc050131de</list_id><order_by/><position>0</position><related_list/><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-24 17:58:46</sys_created_on><sys_id>f0bda6f3c3b222109afb78cc050131df</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-24 17:58:46</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Applications - Default view</calculated_name><filter/><name>x_1798186_student_applications</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-24 17:58:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>74bda6f3c3b222109afb78cc050131de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Applications - Default view</sys_name><sys_package display_value="Student Placement Management" source="x_1798186_student">d4f89b97c3f222109afb78cc05013131</sys_package><sys_policy/><sys_scope display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</sys_scope><sys_update_name>sys_ui_related_x_1798186_student_applications_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-24 17:58:46</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-796002039</payload_hash>
+        <record_name>Applications</record_name>
+        <reverted_from/>
+        <source>18f89b97c3f222109afb78cc05013136</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 17:58:46</sys_created_on>
+        <sys_id>74bd2ef3c3b222109afb78cc050131ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1983d96725c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 17:58:46</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>b4bda6f34fb222101ad9b600d6f2d8e0</update_guid>
+        <update_guid_history>b4bda6f34fb222101ad9b600d6f2d8e0:-796002039,f0d8ea3f47722210856aefb3e87ef805:-507660037,abc8aa7f67722210e5808d8cd6123734:-631427946,2b58627f257222102f35fecb0bcc566c:1142586877,3d48627ff57222100b55e1073970033d:2099409180</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 18:57:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>138b0dfad9f249068569c9eb2fe4a139</sys_id>
+        <sys_metadata>74bda6f3c3b222109afb78cc050131de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Applications - Default view</sys_name>
+        <sys_package display_value="Student Placement Management" source="x_1798186_student">d4f89b97c3f222109afb78cc05013131</sys_package>
+        <sys_parent display_value="Applications">8263e6b7c37222109afb78cc050131e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</sys_scope>
+        <sys_scope_delete display_value="">c81fec129ad84b28b4387ee3defdbca1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_1798186_student_applications_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_1798186_student_applications_null">74bd2ef3c3b222109afb78cc050131ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 18:57:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

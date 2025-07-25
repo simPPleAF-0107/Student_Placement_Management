@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Job Posting</name>
+        <order>100</order>
+        <roles>x_1798186_student.job_posting_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-24 17:11:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>daf26e77c37222109afb78cc0501314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Posting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Placement Management" source="x_1798186_student">d4f89b97c3f222109afb78cc05013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Placement Management">d4f89b97c3f222109afb78cc05013131</sys_scope>
+        <sys_update_name>sys_app_application_daf26e77c37222109afb78cc0501314a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-24 17:11:54</sys_updated_on>
+        <title>Job Posting</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
